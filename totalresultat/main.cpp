@@ -16,7 +16,7 @@ int main() {
     cout <<"Skriv tre resultater mellom 0.0 og 20.0:";
     cin >> res1 >> res2 >> res3;
 
-    float total;     // Totalkarakteren
+    double total; // Totalkarakteren
     total = res1 + res2 + res3;
     total = total / 3.0;
 
